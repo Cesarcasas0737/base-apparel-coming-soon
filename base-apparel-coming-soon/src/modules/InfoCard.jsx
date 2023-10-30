@@ -1,3 +1,4 @@
+import '../styles/styles.css'
 
 function InfoCard(){
     return(
@@ -5,7 +6,10 @@ function InfoCard(){
             <div className="card">
                 <div className="cardLeftContent">
                     <div className="cardHeader">
+                        <div className="cardLogo">
 
+                        </div>
+                        <p>Base Apperal</p>
                     </div>
 
                     <div className="cardModalMobile">
