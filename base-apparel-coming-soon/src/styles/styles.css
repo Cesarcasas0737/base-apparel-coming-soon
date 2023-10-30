@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+  .cardHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cardHeader .cardLogo {
+    background-image: url(../assets/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+  .cardModalMobile {
+    background-image: url(../assets/hero-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=styles.css.map */
