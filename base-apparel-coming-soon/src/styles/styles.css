@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 /*
     Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
     Weights: 300, 400, 600
@@ -9,6 +10,7 @@
 
 @media (max-width: 375px) {
   .card {
+    font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
     width: 100%;
   }
@@ -41,7 +43,25 @@
     padding: 20px;
     text-align: center;
   }
+  .card .cardLeftContent .cardChildContent h1 {
+    letter-spacing: 10px;
+    font-weight: 600;
+  }
+  .card .cardLeftContent .cardChildContent h1:first-of-type {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+  }
   .card .cardLeftContent h1 ~ p {
+    color: hsl(0, 36%, 70%);
     padding: 20px;
+  }
+  .card .cardLeftContent .cardEmailWrapper {
+    overflow: hidden;
+  }
+  .card .cardLeftContent .cardEmailWrapper input {
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
