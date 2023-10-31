@@ -8,7 +8,6 @@ function InfoCard(){
                     <div className="cardLogo">
 
                     </div>
-                    <p>Base Apperal</p>
                 </div>
 
                 <div className="cardModalMobile">
@@ -17,7 +16,8 @@ function InfoCard(){
 
                 <div className="cardChildContent">
                     <h1>WE&rsquo;RE</h1>
-                    <h1>COMING SOON</h1>
+                    <h1>COMING</h1>
+                    <h1>SOON</h1>
                     <p>
                         Hello fellow shoppers!
                         We&rsquo;re currently building our new fashion store.
@@ -25,7 +25,7 @@ function InfoCard(){
                         with announcements and our launch deals
                     </p>
                     <div className="cardEmailWrapper">
-                        <div className="cardemail">
+                        <div className="cardEmail">
                             <form>
                                 <input placeholder="Email Address"/>
             
