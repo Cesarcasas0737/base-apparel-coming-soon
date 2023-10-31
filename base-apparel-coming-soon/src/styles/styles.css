@@ -1,21 +1,47 @@
+/*
+    Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+    Weights: 300, 400, 600
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 375px) {
-  .cardHeader {
+  .card {
+    font-size: 16px;
+    width: 100%;
+  }
+  .card .cardLeftContent .cardHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 40px;
+    padding: 20px;
   }
-  .cardHeader .cardLogo {
+  .card .cardLeftContent .cardHeader .cardLogo {
     background-image: url(../assets/logo.svg);
-    background-size: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    height: 100%;
+    width: 100%;
   }
-  .cardModalMobile {
+  .card .cardLeftContent .cardModalMobile {
     background-image: url(../assets/hero-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 250px;
+  }
+  .card .cardLeftContent .cardChildContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .card .cardLeftContent h1 ~ p {
+    padding: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

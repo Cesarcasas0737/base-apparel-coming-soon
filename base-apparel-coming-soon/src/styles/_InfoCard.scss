@@ -1,30 +1,53 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 @media (max-width: $mobile){
-    .cardHeader{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        .cardLogo{
-        background-image: url(../assets/logo.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-
-        width: 50px;
-        height: 50px;
+    .card{
+        font-size: $fontSize;
         
+        width: 100%;
+        .cardLeftContent{
+            .cardHeader{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 40px;
+                .cardLogo{
+                background-image: url(../assets/logo.svg);
+                object-fit: cover;
+                background-repeat: no-repeat;
+                height: 100%;
+                width: 100%;
+                
+                }
+                padding: $padding-small;
+            }
 
-    }
-    }
-    
+            
+            .cardModalMobile{
+                background-image: url(../assets/hero-mobile.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
 
-    .cardModalMobile{
-        background-image: url(../assets/hero-mobile.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+                width: 100%;
+                height: 250px;
+            }
 
-        width: 100px;
-        height: 100px;
-        
+            .cardChildContent{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                padding: $padding-small;
+                text-align: center;
+            }
+            h1~p{
+                padding: $padding-small;
+            }
+
+        }
+
     }
 }
